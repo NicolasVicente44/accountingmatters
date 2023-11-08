@@ -8,6 +8,8 @@ const Footer = () => {
       setCurrentYear(new Date().getFullYear());
     }, 1000 * 60); // Update the year every minute (you can adjust the interval as needed)
 
+
+
     return () => {
       clearInterval(interval);
     };
@@ -60,6 +62,7 @@ const Footer = () => {
       </div>
       <p className="text-white flex items-center justify-center">
   &copy; {currentYear} Accounting Matters. All rights reserved.
+  
 </p>
 
     </div>

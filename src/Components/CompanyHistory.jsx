@@ -1,8 +1,10 @@
 import React from "react";
+import img1 from "../Assests/accounting-hero/kelly-sikkema-wgcUx0kR1ps-unsplash.jpg";
 
 const CompanyHistory = () => {
   return (
-    <div className="bg-white p-8 shadow-lg rounded-lg flex flex-col items-center text-center">
+    <div className="bg-white p-8 shadow-lg rounded-lg flex flex-col w-1/2">
+      <img src={img1} alt="" className="" />
       <h2 className="text-3xl font-semibold mb-4">Our History</h2>
       <p className="text-lg mb-4">
         Founded in 2004, Accounting Matters has a rich history of providing

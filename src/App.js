@@ -8,6 +8,7 @@ import WelcomeMessage from "./Components/WelcomeMessage";
 import CompanyHistory from "./Components/CompanyHistory";
 import MissionAndValues from "./Components/MissionAndValues";
 import TeamAndExpertise from "./Components/TeamAndExpertise";
+import Consult from "./Components/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/welcome" element={<WelcomeMessage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/consult" element={<ConsultContent />} />
         </Routes>
         <Footer />
       </div>
@@ -42,6 +44,15 @@ function About() {
       <CompanyHistory />
       <MissionAndValues />
       <TeamAndExpertise />
+    </div>
+  );
+}
+
+function ConsultContent() {
+  return (
+    <div>
+      {/* Render the content for the "Consult" route here */}
+      <Consult />
     </div>
   );
 }

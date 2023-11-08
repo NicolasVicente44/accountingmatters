@@ -1,5 +1,6 @@
 import React from "react";
 import heroImage from "../Assests/accounting-hero/581.jpg";
+import CalendlyWidget from "./CalendyWidget";
 
 const Hero = () => {
   return (
@@ -14,10 +15,10 @@ const Hero = () => {
           />
         </div>
         <div className="w-full md:w-1/2 p-4">
-          <h1 className="text-4xl font-bold text-center text-gray-800">
-            Accounting{" "}
+          <h1 className="text-4xl font-bold text-center font-helvetica text-gray-800">
+            Small Business{" "}
             <span className="text-red-500">
-              <i>Matters</i>{" "}
+              <i>Accountants</i>{" "}
             </span>
           </h1>
           <p className="text-xl text-center mt-4 text-gray-700">

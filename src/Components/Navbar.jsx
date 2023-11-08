@@ -21,7 +21,7 @@ const Navbar = () => {
           {" "}
           {/* Use Link for the home page */}
           <img src="" className="h-20 mr-3" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap sm:block hidden hover:text-gray-500  dark:text-black">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap sm:block     hover:text-gray-500  dark:text-black">
             <img src={logo} alt="" />
           </span>
         </Link>
