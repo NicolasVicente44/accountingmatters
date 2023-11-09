@@ -6,9 +6,10 @@ import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
 import WelcomeMessage from "./Components/WelcomeMessage";
 import CompanyHistory from "./Components/CompanyHistory";
-import MissionAndValues from "./Components/MissionAndValues";
-import TeamAndExpertise from "./Components/TeamAndExpertise";
+
 import Consult from "./Components/Contact";
+import ServicesContent from "./Components/ServicesContent";
+import About2 from "./Components/About2";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<ServicesContentPage />} />
           <Route path="/welcome" element={<WelcomeMessage />} />
           <Route path="/about" element={<About />} />
           <Route path="/consult" element={<ConsultContent />} />
@@ -42,8 +43,7 @@ function About() {
   return (
     <div>
       <CompanyHistory />
-      <MissionAndValues />
-      <TeamAndExpertise />
+      <About2 />  
     </div>
   );
 }
@@ -51,8 +51,15 @@ function About() {
 function ConsultContent() {
   return (
     <div>
-      {/* Render the content for the "Consult" route here */}
       <Consult />
+    </div>
+  );
+}
+
+function ServicesContentPage() {
+  return (
+    <div>
+      <ServicesContent />
     </div>
   );
 }

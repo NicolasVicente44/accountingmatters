@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </div>
         <div className="w-full md:w-1/2 p-4">
-          <h1 className="text-4xl font-bold text-center font-helvetica text-gray-800">
+          <h1 className="text-4xl font-bold text-center  text-gray-800">
             Small Business{" "}
             <span className="text-red-500">
               <i>Accountants</i>{" "}
@@ -30,7 +30,7 @@ const Hero = () => {
           </p>
           <div className="flex justify-center mt-6">
             <a
-              href="#"
+              href="services"
               className="bg-red-500 text-white py-2 px-6 rounded-full text-lg hover:bg-gray-500 transition duration-300 ease-in-out"
             >
               Get Started

@@ -1,30 +1,72 @@
 import React from "react";
-import img1 from "../Assests/accounting-hero/kelly-sikkema-wgcUx0kR1ps-unsplash.jpg";
 
-const CompanyHistory = () => {
+const About1 = () => {
   return (
-    <div className="bg-white p-8 shadow-lg rounded-lg flex flex-col w-1/2">
-      <img src={img1} alt="" className="" />
-      <h2 className="text-3xl font-semibold mb-4">Our History</h2>
-      <p className="text-lg mb-4">
-        Founded in 2004, Accounting Matters has a rich history of providing
-        exceptional accounting services to our clients.
-      </p>
-      <p className="text-lg mb-4">
-        Throughout the years, we've achieved several milestones and have grown
-        to become a trusted partner in the financial industry.
-      </p>
-      <h2 className="text-3xl font-semibold mt-8 mb-4">Our Approach</h2>
-      <p className="text-lg mb-4">
-        At Accounting Matters, we take a professional, personal approach to
-        managing and providing for all of your individual or business needs.
-      </p>
-      <p className="text-lg mb-4">
-        As your business grows, we understand the demands it places on you. Let
-        us help you reliably, accurately, and affordably.
-      </p>
-    </div>
+    <>
+      <section className="overflow-hidden pt-20 pb-12 lg:pt-[50px] lg:pb-[90px] bg-white dark:bg-dark">
+        <div className="container mx-auto">
+          <div className="flex flex-wrap items-center justify-between -mx-4">
+            <div className="w-full px-4 lg:w-6/12">
+              <div className="flex items-center -mx-3 sm:-mx-4">
+                <div className="w-full px-3 sm:px-4 xl:w-1/2">
+                  <div className="py-3 sm:py-4 hidden sm:block">
+                    <img
+                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      alt=""
+                      className="w-full rounded-2xl"
+                    />
+                  </div>
+                  <div className="py-3 sm:py-4 hidden sm:block">
+                    <img
+                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      alt=""
+                      className="w-full rounded-2xl"
+                    />
+                  </div>
+                </div>
+                <div className="w-full px-3 sm:px-4 xl:w-1/2">
+                  <div className="relative z-10 my-4 hidden sm:block">
+                    <img
+                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      alt=""
+                      className="w-full rounded-2xl"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full px-6  lg:w-1/2 xl:w-5/12">
+              <div className="mt-10 lg:mt-0">
+                <span className="block font-bold text-primary text-3xl text-center">
+                  Why Choose Us
+                </span>
+                <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                  Make your customers happy by giving services.
+                </h2>
+                <p className="mb-5 md:w-59 text-base text-center text-body-color dark:text-dark-6 lg:text-lg">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less.
+                </p>
+                <p className="mb-8 text-base text-center text-body-color dark:text-dark-6 lg:text-lg ">
+                  A domain name is one of the first steps to establishing your
+                  brand. Secure a consistent brand image with a domain name that
+                  matches your business.
+                </p>
+                <a
+                  href="javascript:void(0)"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                >
+                  Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
-export default CompanyHistory;
+export default About1;

@@ -19,7 +19,7 @@ const WelcomeMessage = () => {
       </p>
       <button>
         <p className="text-lg text-white bg-red-500 hover:bg-gray-500 transition duration-300 ease-in-out p-4 font-semibold mt-8 rounded-full">
-          Consult With Us
+          <a href="/consult">Consult With Us</a>
         </p>
       </button>
     </div>
