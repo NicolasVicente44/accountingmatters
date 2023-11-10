@@ -67,14 +67,6 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/about"
-                className="block py-2 pl-3 pr-4 text-xl hover:text-gray-500  text-black rounded md:bg-transparent md:text-xl md:text-black md:p-0 dark:text-black md:dark:text-black"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/services"
                 className="block py-2 pl-3 pr-4 text-xl hover:text-gray-500  text-black  rounded md:bg-transparent md:text-xl md:text-black md:p-0 dark:text-black md:dark:text-black"
               >
@@ -83,12 +75,13 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/resources"
-                className="block py-2 pl-3 pr-4 text-xl hover:text-gray-500  text-black  rounded md:bg-transparent md:text-xl md:text-black md:p-0 dark:text-black md:dark:text-black"
+                to="/about"
+                className="block py-2 pl-3 pr-4 text-xl hover:text-gray-500  text-black rounded md:bg-transparent md:text-xl md:text-black md:p-0 dark:text-black md:dark:text-black"
               >
-                Resources
+                About
               </Link>
             </li>
+
             <li>
               <Link
                 to="/consult"

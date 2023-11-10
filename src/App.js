@@ -43,7 +43,6 @@ function About() {
   return (
     <div>
       <CompanyHistory />
-      <About2 />  
     </div>
   );
 }
@@ -60,6 +59,7 @@ function ServicesContentPage() {
   return (
     <div>
       <ServicesContent />
+      <About2 />
     </div>
   );
 }

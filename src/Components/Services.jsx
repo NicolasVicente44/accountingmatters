@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className="services-feature flex flex-wrap justify-center mr-20 ml-20 pt-20 pb-20">
       <a
-        href="/"
+        href="/services"
         className="w-full md:w-1/2 lg:w-1/4 p-4 flex flex-col items-center mt-6 hover:text-red-500 hover:scale-105 transition-transform"
       >
         <div className="rounded-full bg-gray-300 border-2 border-gray-600 p-4">
@@ -24,7 +24,7 @@ const Services = () => {
         </p>
       </a>
       <a
-        href="/"
+        href="/services"
         className="w-full md:w-1/2 lg:w-1/4 p-4 flex flex-col items-center mt-6 hover:text-red-500 hover:scale-105 transition-transform"
       >
         <div className="rounded-full bg-gray-300 border-2 border-gray-600 p-4">
@@ -40,7 +40,7 @@ const Services = () => {
         </p>
       </a>
       <a
-        href="/"
+        href="/services"
         className="w-full md:w-1/2 lg:w-1/4 p-4 flex flex-col items-center mt-6 hover:text-red-500 hover:scale-105 transition-transform"
       >
         <div className="rounded-full bg-gray-300 border-2 border-gray-600 p-4">
@@ -54,7 +54,7 @@ const Services = () => {
         </p>
       </a>
       <a
-        href="/"
+        href="/services"
         className="w-full md:w-1/2 lg:w-1/4 p-4 flex flex-col items-center mt-6 hover:text-red-500 hover:scale-105 transition-transform"
       >
         <div className="rounded-full bg-gray-300 border-2 border-gray-600 p-4">
